@@ -1,0 +1,67 @@
+@import "variables";
+
+.todos {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 2rem;
+    color: $veryDarkGrayishBlue;
+    &__form {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    &__input {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+        border: none;
+        color: $veryDarkGrayishBlue;
+    }
+    &__todo {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        background-color: $veryLightGray;
+        border-bottom: 0.1px solid $lightGrayishBlue;
+        &:nth-of-type(1) {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+    &__bottomList {
+        align-items: center;
+        padding: 1rem;
+        background-color: $veryLightGray;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    &__text {
+        font-size: $bodyCopy;
+        width: 100%;
+        margin-left: .5rem;
+        &--complete {
+            text-decoration: line-through;
+            opacity: .5;
+            width: 100%;
+            margin-left: .5rem;
+        }
+    }
+    &__input {
+		display: none;
+	}
+    &__label {
+        cursor: pointer;
+    }
+    &__icon-label{
+        background-color: $veryDarkGrayishBlue;
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__icon-cross {
+        cursor: pointer;
+        
+    }
+}

@@ -1,0 +1,11 @@
+.stickyContainer {
+    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.wrapper {
+	flex: 1;
+	margin: 0 auto 2rem;
+	width: 100%;
+	max-width: 600px;
+}

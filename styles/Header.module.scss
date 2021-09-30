@@ -1,0 +1,18 @@
+@import "variables";
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../public/images/bg_desktop_light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    padding: 0 30px;
+    &__title {
+        max-width: 600px;
+        width: 100%;
+        float: left;
+    }
+}
+

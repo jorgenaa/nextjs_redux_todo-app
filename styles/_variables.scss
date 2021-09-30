@@ -1,0 +1,37 @@
+/////////////////
+//Colors
+/////////////////
+
+//Primary
+$brightBlue: hsl(220, 98%, 60%);
+$checkBackground: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+//Neutral
+
+//Light Theme
+$veryLightGray: hsl(0, 0%, 98%);
+$veryLightGrayishBlue: hsl(236, 33%, 92%);
+$lightGrayishBlue: hsl(231, 17%, 84%);
+$darkGrayishBlue: hsl(238, 14%, 62%);
+$veryDarkGrayishBlue: hsl(234, 21%, 36%);
+
+/////////////////
+//Typography
+////////////////
+
+@font-face {
+    font-family: 'Josefin-Sans-Regular';
+    src: url(../public/fonts/JosefinSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Josefin-Sans-Bold';
+    src: url(../public/fonts/JosefinSans-Bold.ttf) format('truetype');
+}
+
+
+$josefinSansRegular: 'Josefin-Sans-Regular';
+$josefinSansBold: 'Josefin-Sans-Bold';
+
+//Font size
+$bodyCopy: 18px;
