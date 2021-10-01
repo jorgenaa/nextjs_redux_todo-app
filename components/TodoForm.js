@@ -27,7 +27,7 @@ export default function TodoForm() {
                 placeholder="Add a todo" 
                 value={input} 
                 name="text" 
-                className={styles['todos__input']} 
+                className={styles['todos__input-text']} 
             />
         </form>
     )
