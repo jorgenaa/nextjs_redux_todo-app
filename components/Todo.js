@@ -20,12 +20,13 @@ export default function Todo({id, text, complete}) {
         <>
             <div className={styles['todos__todo']}>
                 <div className={styles['todos__icon-label']} title='Complete todo'>
-                    <label htmlFor='check' className={styles['todos__label']}>
+                    <label htmlFor={id} className={styles['todos__label']}>
                         <Image src={iconCheck} alt='icon' />  
                     </label>
+                    <input type="checkbox" onChange={handleCompleteClick} checked={complete} id={id} className={styles.todos__input} />
                 </div>
              
-                <input type="checkbox" onChange={handleCompleteClick} checked={complete} id='check' className={styles.todos__input} />
+                
                 <p className={complete ? styles['todos__text--complete'] : styles['todos__text']}>{text}</p> 
                 <div className={styles.todos__icons}>
                     <div className={styles['todos__icon-cross']} title='Remove todo'>
