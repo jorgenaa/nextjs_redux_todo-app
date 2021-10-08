@@ -10,16 +10,13 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
-    "lodash": "^4.17.21",
     "next": "11.1.2",
-    "next-redux-wrapper": "^7.0.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
     "react-redux": "^7.2.5",
     "redux": "^4.1.1",
     "redux-persist": "^6.0.0",
-    "redux-thunk": "^2.3.0",
     "sass": "^1.41.0"
   },
   "devDependencies": {
